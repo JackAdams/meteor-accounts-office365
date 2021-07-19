@@ -2,7 +2,7 @@ Package.describe({
   name: 'babrahams:accounts-office365',
   version: '0.1.2',
   summary: 'Login service for Microsoft Office 365 accounts',
-  git: 'https://github.com/lindoelio/meteor-accounts-office365',
+  git: 'https://github.com/JackAdams/meteor-accounts-office365',
   documentation: 'README.md'
 });
 
@@ -16,8 +16,8 @@ Package.onUse(function(api) {
 
   api.use('accounts-oauth', ['client', 'server']);
 
-  api.use('babrahams:office365-oauth@0.2.0');
-  api.imply('babrahams:office365-oauth@0.2.0');
+  api.use('babrahams:office365-oauth@0.2.1');
+  api.imply('babrahams:office365-oauth@0.2.1');
 
   api.use(
     ['accounts-ui'],
